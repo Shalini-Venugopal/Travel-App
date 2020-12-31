@@ -4,7 +4,7 @@ class MainSlide extends React.Component {
     render() {
         return (
             <div>
-                <main id="tg-main" class="tg-main tg-haslayout">
+                <main id="tg-main" className="tg-main tg-haslayout">
                     <section className="tg-sectionspace tg-haslayout">
                         <div className="container">
                             <div className="row">
@@ -12,7 +12,7 @@ class MainSlide extends React.Component {
                                     <div className="tg-toursdestinations">
                                         <div className="tg-tourdestination tg-tourdestinationbigbox">
                                             <figure>
-                                                <a href="javascript:void(0);">
+                                                <a href="#">
                                                     <img src="http://wahabali.com/work/travelu/images/destination/img-01.jpg" alt="image destinations" />
                                                         <div className="tg-hoverbox">
                                                             <div className="tg-adventuretitle">
@@ -27,7 +27,7 @@ class MainSlide extends React.Component {
                                         </div>
                                         <div className="tg-tourdestination">
                                             <figure>
-                                                <a href="javascript:void(0);">
+                                                <a href="#">
                                                     <img src="http://wahabali.com/work/travelu/images/destination/img-02.jpg" alt="image destinations" />
                                                         <div className="tg-hoverbox">
                                                             <div className="tg-adventuretitle">
@@ -39,7 +39,7 @@ class MainSlide extends React.Component {
                                         </div>
                                         <div className="tg-tourdestination">
                                             <figure>
-                                                <a href="javascript:void(0);">
+                                                <a href="#">
                                                     <img src="http://wahabali.com/work/travelu/images/destination/img-03.jpg" alt="image destinations" />
                                                     <div className="tg-hoverbox">
                                                         <div className="tg-adventuretitle">
@@ -101,7 +101,7 @@ class MainSlide extends React.Component {
                                 <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                                     <div className="tg-sectiontitle tg-sectiontitleleft">
                                         <h2>Popular Tours</h2>
-                                        <a className="tg-btnvtwo" href="javascript:void(0);">All Tours</a>
+                                        <a className="tg-btnvtwo" href="#">All Tours</a>
                                     </div>
                                     <div id="tg-populartoursslider" className="tg-populartoursslider tg-populartours owl-carousel">
                                         <div className="item tg-populartour">
@@ -300,9 +300,9 @@ class MainSlide extends React.Component {
                                 </div>
                                 <div className="item tg-destination">
                                     <figure>
-                                        <a href="javascript:void(0);"><img src="http://wahabali.com/work/travelu/images/destination/img-07.jpg" alt="image description" /></a>
+                                        <a href="#"><img src="http://wahabali.com/work/travelu/images/destination/img-07.jpg" alt="image description" /></a>
                                         <figcaption>
-                                            <h2><a href="javascript:void(0);">Istanbul</a></h2>
+                                            <h2><a href="#">Istanbul</a></h2>
                                             <div className="tg-description">
                                             <p>Beautiful Mosque</p>
                                             </div>
@@ -311,9 +311,9 @@ class MainSlide extends React.Component {
                                 </div>
                                 <div className="item tg-destination">
                                     <figure>
-                                        <a href="javascript:void(0);"><img src="http://wahabali.com/work/travelu/images/destination/img-04.jpg" alt="image description" /></a>
+                                        <a href="#"><img src="http://wahabali.com/work/travelu/images/destination/img-04.jpg" alt="image description" /></a>
                                         <figcaption>
-                                            <h2><a href="javascript:void(0);">Paris</a></h2>
+                                            <h2><a href="#">Paris</a></h2>
                                             <div className="tg-description">
                                             <p>in the streets of London</p>
                                             </div>
@@ -322,18 +322,18 @@ class MainSlide extends React.Component {
                                 </div>
                                 <div className="item tg-destination">
                                     <figure>
-                                        <a href="javascript:void(0);"><img src="http://wahabali.com/work/travelu/images/destination/img-05.jpg" alt="image description" /></a>
+                                        <a href="#"><img src="http://wahabali.com/work/travelu/images/destination/img-05.jpg" alt="image description" /></a>
                                         <figcaption>
-                                            <h2><a href="javascript:void(0);">Egypt</a></h2>
+                                            <h2><a href="#">Egypt</a></h2>
                                             <div className="tg-description">
                                             <p>in the streets of London</p>
                                             </div>
                                         </figcaption>
                                     </figure>
                                     <figure>
-                                        <a href="javascript:void(0);"><img src="http://wahabali.com/work/travelu/images/destination/img-06.jpg" alt="image description" /></a>
+                                        <a href="#"><img src="http://wahabali.com/work/travelu/images/destination/img-06.jpg" alt="image description" /></a>
                                         <figcaption>
-                                            <h2><a href="javascript:void(0);">London</a></h2>
+                                            <h2><a href="#">London</a></h2>
                                             <div className="tg-description">
                                             <p>in the streets of London</p>
                                             </div>
@@ -342,9 +342,9 @@ class MainSlide extends React.Component {
                                 </div>
                                 <div className="item tg-destination">
                                     <figure>
-                                        <a href="javascript:void(0);"><img src="http://wahabali.com/work/travelu/images/destination/img-07.jpg" alt="image description" /></a>
+                                        <a href="#"><img src="http://wahabali.com/work/travelu/images/destination/img-07.jpg" alt="image description" /></a>
                                         <figcaption>
-                                            <h2><a href="javascript:void(0);">Istanbul</a></h2>
+                                            <h2><a href="#">Istanbul</a></h2>
                                             <div className="tg-description">
                                             <p>Beautiful Mosque</p>
                                             </div>
@@ -367,7 +367,7 @@ class MainSlide extends React.Component {
                                         <div className="tg-description">
                                             <p>Travel between 22 April to 21 May and get existing offers along with a sure 10% cash discount</p>
                                         </div>
-                                        <a className="tg-btn" href="javascript:void(0);"><span>Explore Tour</span></a>
+                                        <a className="tg-btn" href="#"><span>Explore Tour</span></a>
                                     </div>
                                 </div>
                                 </div>
@@ -395,9 +395,9 @@ class MainSlide extends React.Component {
                                             <h3>Martin Blake</h3>
                                             <h4>Adventure Master</h4>
                                             <ul className="tg-socialicons tg-socialiconsvtwo">
-                                                <li><a href="javascript:void(0);"><i class="icon-facebook-logo-outline"></i></a></li>
-                                                <li><a href="javascript:void(0);"><i class="icon-instagram-social-outlined-logo"></i></a></li>
-                                                <li><a href="javascript:void(0);"><i class="icon-twitter-social-outlined-logo"></i></a></li>
+                                                <li><a href="#"><i className="icon-facebook-logo-outline"></i></a></li>
+                                                <li><a href="#"><i className="icon-instagram-social-outlined-logo"></i></a></li>
+                                                <li><a href="#"><i className="icon-twitter-social-outlined-logo"></i></a></li>
                                             </ul>
                                             </div>
                                             <div className="tg-description">
@@ -412,9 +412,9 @@ class MainSlide extends React.Component {
                                             <h3>Martin Blake</h3>
                                             <h4>Adventure Master</h4>
                                             <ul className="tg-socialicons tg-socialiconsvtwo">
-                                                <li><a href="javascript:void(0);"><i className="icon-facebook-logo-outline"></i></a></li>
-                                                <li><a href="javascript:void(0);"><i className="icon-instagram-social-outlined-logo"></i></a></li>
-                                                <li><a href="javascript:void(0);"><i className="icon-twitter-social-outlined-logo"></i></a></li>
+                                                <li><a href="#"><i className="icon-facebook-logo-outline"></i></a></li>
+                                                <li><a href="#"><i className="icon-instagram-social-outlined-logo"></i></a></li>
+                                                <li><a href="#"><i className="icon-twitter-social-outlined-logo"></i></a></li>
                                             </ul>
                                             </div>
                                             <div className="tg-description">
@@ -429,9 +429,9 @@ class MainSlide extends React.Component {
                                             <h3>Martin Blake</h3>
                                             <h4>Adventure Master</h4>
                                             <ul className="tg-socialicons tg-socialiconsvtwo">
-                                                <li><a href="javascript:void(0);"><i class="icon-facebook-logo-outline"></i></a></li>
-                                                <li><a href="javascript:void(0);"><i class="icon-instagram-social-outlined-logo"></i></a></li>
-                                                <li><a href="javascript:void(0);"><i class="icon-twitter-social-outlined-logo"></i></a></li>
+                                                <li><a href="#"><i className="icon-facebook-logo-outline"></i></a></li>
+                                                <li><a href="#"><i className="icon-instagram-social-outlined-logo"></i></a></li>
+                                                <li><a href="#"><i className="icon-twitter-social-outlined-logo"></i></a></li>
                                             </ul>
                                             </div>
                                             <div className="tg-description">
@@ -446,9 +446,9 @@ class MainSlide extends React.Component {
                                             <h3>Martin Blake</h3>
                                             <h4>Adventure Master</h4>
                                             <ul className="tg-socialicons tg-socialiconsvtwo">
-                                                <li><a href="javascript:void(0);"><i class="icon-facebook-logo-outline"></i></a></li>
-                                                <li><a href="javascript:void(0);"><i class="icon-instagram-social-outlined-logo"></i></a></li>
-                                                <li><a href="javascript:void(0);"><i class="icon-twitter-social-outlined-logo"></i></a></li>
+                                                <li><a href="#"><i className="icon-facebook-logo-outline"></i></a></li>
+                                                <li><a href="#"><i className="icon-instagram-social-outlined-logo"></i></a></li>
+                                                <li><a href="#"><i className="icon-twitter-social-outlined-logo"></i></a></li>
                                             </ul>
                                             </div>
                                             <div className="tg-description">
@@ -463,9 +463,9 @@ class MainSlide extends React.Component {
                                             <h3>Martin Blake</h3>
                                             <h4>Adventure Master</h4>
                                             <ul className="tg-socialicons tg-socialiconsvtwo">
-                                                <li><a href="javascript:void(0);"><i class="icon-facebook-logo-outline"></i></a></li>
-                                                <li><a href="javascript:void(0);"><i class="icon-instagram-social-outlined-logo"></i></a></li>
-                                                <li><a href="javascript:void(0);"><i class="icon-twitter-social-outlined-logo"></i></a></li>
+                                                <li><a href="#"><i className="icon-facebook-logo-outline"></i></a></li>
+                                                <li><a href="#"><i className="icon-instagram-social-outlined-logo"></i></a></li>
+                                                <li><a href="#"><i className="icon-twitter-social-outlined-logo"></i></a></li>
                                             </ul>
                                             </div>
                                             <div className="tg-description">
@@ -480,9 +480,9 @@ class MainSlide extends React.Component {
                                             <h3>Martin Blake</h3>
                                             <h4>Adventure Master</h4>
                                             <ul className="tg-socialicons tg-socialiconsvtwo">
-                                                <li><a href="javascript:void(0);"><i class="icon-facebook-logo-outline"></i></a></li>
-                                                <li><a href="javascript:void(0);"><i class="icon-instagram-social-outlined-logo"></i></a></li>
-                                                <li><a href="javascript:void(0);"><i class="icon-twitter-social-outlined-logo"></i></a></li>
+                                                <li><a href="#"><i className="icon-facebook-logo-outline"></i></a></li>
+                                                <li><a href="#"><i className="icon-instagram-social-outlined-logo"></i></a></li>
+                                                <li><a href="#"><i className="icon-twitter-social-outlined-logo"></i></a></li>
                                             </ul>
                                             </div>
                                             <div className="tg-description">
@@ -506,19 +506,19 @@ class MainSlide extends React.Component {
                                         <h2>Our Partners</h2>
                                         <ul className="tg-partners">
                                             <li>
-                                            <figure><a href="javascript:void(0);"><img src="http://wahabali.com/work/travelu/images/partners/img-01.png" alt="image destinations"/></a></figure>
+                                            <figure><a href="#"><img src="http://wahabali.com/work/travelu/images/partners/img-01.png" alt="image destinations"/></a></figure>
                                             </li>
                                             <li>
-                                            <figure><a href="javascript:void(0);"><img src="http://wahabali.com/work/travelu/images/partners/img-02.png" alt="image destinations"/></a></figure>
+                                            <figure><a href="#"><img src="http://wahabali.com/work/travelu/images/partners/img-02.png" alt="image destinations"/></a></figure>
                                             </li>
                                             <li>
-                                            <figure><a href="javascript:void(0);"><img src="http://wahabali.com/work/travelu/images/partners/img-03.png" alt="image destinations"/></a></figure>
+                                            <figure><a href="#"><img src="http://wahabali.com/work/travelu/images/partners/img-03.png" alt="image destinations"/></a></figure>
                                             </li>
                                             <li>
-                                            <figure><a href="javascript:void(0);"><img src="http://wahabali.com/work/travelu/images/partners/img-03.png" alt="image destinations"/></a></figure>
+                                            <figure><a href="#"><img src="http://wahabali.com/work/travelu/images/partners/img-03.png" alt="image destinations"/></a></figure>
                                             </li>
                                             <li>
-                                            <figure><a href="javascript:void(0);"><img src="http://wahabali.com/work/travelu/images/partners/img-05.png" alt="image destinations"/></a></figure>
+                                            <figure><a href="#"><img src="http://wahabali.com/work/travelu/images/partners/img-05.png" alt="image destinations"/></a></figure>
                                             </li>
                                         </ul>
                                     </div>

@@ -19,9 +19,9 @@ class Footer extends React.Component {
 									    <span>1-800-321-6543</span>
 									    <a href="mailto:info@travlu.com">info@travlu.com</a>
 									    <ul className="tg-socialicons tg-socialiconsvtwo">
-										    <li><a href="javascript:void(0);"><i class="icon-facebook-logo-outline"></i></a></li>
-										    <li><a href="javascript:void(0);"><i class="icon-instagram-social-outlined-logo"></i></a></li>
-										    <li><a href="javascript:void(0);"><i class="icon-twitter-social-outlined-logo"></i></a></li>
+										    <li><a href="#"><i className="icon-facebook-logo-outline"></i></a></li>
+										    <li><a href="#"><i className="icon-instagram-social-outlined-logo"></i></a></li>
+										    <li><a href="#"><i className="icon-twitter-social-outlined-logo"></i></a></li>
 									    </ul>
 								    </div>
 							    </div>
@@ -35,26 +35,26 @@ class Footer extends React.Component {
 									    <ul>
 										    <li>
 											    <figure>
-												    <a href="javascript:void(0);"><img src="http://wahabali.com/work/travelu/images/thumbnail/img-01.jpg" alt="image destinations" /></a>
+												    <a href="#"><img src="http://wahabali.com/work/travelu/images/thumbnail/img-01.jpg" alt="image destinations" /></a>
 											    </figure>
 											    <div className="tg-newcontent">
-												    <h4><a href="javascript:void(0);">Bungee Jumping Trip</a></h4>
+												    <h4><a href="#">Bungee Jumping Trip</a></h4>
 												    <div className="tg-description">
 													    <p>Nunc cursus libero purus congue arcu vitae pulvinar</p>
 												    </div>
-												    <time datetime="2017-06-06">Feb 22, 2017</time>
+												    <time dateTime="2017-06-06">Feb 22, 2017</time>
 											    </div>
 										    </li>
 										    <li>
 											    <figure>
-												    <a href="javascript:void(0);"><img src="http://wahabali.com/work/travelu/images/thumbnail/img-02.jpg" alt="image destinations" /></a>
+												    <a href="#"><img src="http://wahabali.com/work/travelu/images/thumbnail/img-02.jpg" alt="image destinations" /></a>
 											    </figure>
 											    <div className="tg-newcontent">
-												    <h4><a href="javascript:void(0);">Trip to White Castle</a></h4>
+												    <h4><a href="#">Trip to White Castle</a></h4>
 												    <div className="tg-description">
 													    <p>Nunc cursus libero purus congue arcu vitae pulvinar</p>
 												    </div>
-												    <time datetime="2017-06-06">Feb 22, 2017</time>
+												    <time dateTime="2017-06-06">Feb 22, 2017</time>
 											    </div>
 										    </li>
 									    </ul>
@@ -68,11 +68,11 @@ class Footer extends React.Component {
 								    </div>  
 								    <div className="tg-widgetcontent">
 									    <ul>
-										    <li><a href="javascript:void(0);">Bayonne, Melbourne</a></li>
-										    <li><a href="javascript:void(0);">Greenville, New Jersey</a></li>
-										    <li><a href="javascript:void(0);">The Heights, London</a></li>
-										    <li><a href="javascript:void(0);">West Side, New York</a></li>
-									        <li><a href="javascript:void(0);">Upper East Side, New York</a></li>
+										    <li><a href="#">Bayonne, Melbourne</a></li>
+										    <li><a href="#">Greenville, New Jersey</a></li>
+										    <li><a href="#">The Heights, London</a></li>
+										    <li><a href="#">West Side, New York</a></li>
+									        <li><a href="#">Upper East Side, New York</a></li>
 									    </ul>
 								    </div>
 							    </div>

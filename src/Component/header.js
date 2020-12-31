@@ -4,10 +4,10 @@ import { BrowserRouter as Router, Route, Switch,Navbar } from 'react-router-dom'
 class Header extends Component {
     render(){
         return(
-            <div id="tg-wrapper" class="tg-wrapper tg-haslayout">
+            <div id="tg-wrapper" className="tg-wrapper tg-haslayout">
              <nav id="menu">
             <ul>
-                <li><a href="javascript:void(0);">Home</a>
+                <li><a href="#">Home</a>
                     <ul>
                         <li><a href="index.html">Home ~ Modern</a></li>
                         <li><a href="indexv2.html">Home ~ Full Screen</a></li>
@@ -17,7 +17,7 @@ class Header extends Component {
                     </ul>
                 </li>
                 <li><a href="destinations.html">Destinations</a></li>
-                <li><a href="javascript:void(0);">Listings</a>
+                <li><a href="#">Listings</a>
                     <div>
                         <ul>
                             <li><a href="listingvone.html">list style one</a></li>
@@ -48,7 +48,7 @@ class Header extends Component {
                                 </div>
                                 <div className="item tg-trendingtrip">
                                     <figure>
-                                        <a href="javascript:void(0);">
+                                        <a href="#">
                                             <img src="http://wahabali.com/work/travelu/images/tours/img-06.jpg" alt="image destinations" />
                                             <div className="tg-hover">
                                                 <span className="tg-stars"><span></span></span>
@@ -64,7 +64,7 @@ class Header extends Component {
                                 </div>
                                 <div className="item tg-trendingtrip">
                                     <figure>
-                                        <a href="javascript:void(0);">
+                                        <a href="#">
                                             <img src="http://wahabali.com/work/travelu/images/tours/img-07.jpg" alt="image destinations" />
                                             <div className="tg-hover">
                                                 <span className="tg-stars"><span></span></span>
@@ -80,7 +80,7 @@ class Header extends Component {
                                 </div>
                                 <div className="item tg-trendingtrip">
                                     <figure>
-                                        <a href="javascript:void(0);">
+                                        <a href="#">
                                             <img src="http://wahabali.com/work/travelu/images/tours/img-08.jpg" alt="image destinations" />
                                             <div className="tg-hover">
                                                 <span className="tg-stars"><span></span></span>
@@ -98,7 +98,7 @@ class Header extends Component {
                         </div>
                     </div>
                 </li>
-                <li><a href="javascript:void(0);">Pages</a>
+                <li><a href="#">Pages</a>
                     <ul>
                         <li><a href="faqs.html">FAQ’s</a></li>
                         <li><a href="packages.html">Table</a></li>
@@ -109,7 +109,7 @@ class Header extends Component {
                         <li><a href="comingsoon.html">Coming Soon</a></li>
                         <li><a href="cart.html">cart</a></li>
                         <li>
-                            <a href="javascript:void(0);">Tours</a>
+                            <a href="#">Tours</a>
                             <ul>
                                 <li><a href="tourcatagory.html">Tour Catagory</a></li>
                                 <li><a href="tourbookingdetail.html">Tour Detail</a></li>
@@ -118,14 +118,14 @@ class Header extends Component {
                         </li>
                     </ul>
                 </li>
-                <li><a href="javascript:void(0);">Shop</a>
+                <li><a href="#">Shop</a>
                     <ul>
                         <li><a href="shop.html">Shop</a></li>
                         <li><a href="shopdetail.html">Shop Detail</a></li>
                         <li><a href="cart.html">Cart</a></li>
                     </ul>
                 </li>
-                <li><a href="javascript:void(0);">Blog</a>
+                <li><a href="#">Blog</a>
                     <ul>
                         <li><a href="blog.html">Blog</a></li>
                         <li><a href="blogdetail.html">Blog Detail</a></li>

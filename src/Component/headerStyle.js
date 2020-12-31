@@ -16,7 +16,7 @@ class HeaderStyle extends Component {
                                     </li>
                                     <li>
                                         <i><img src="http://wahabali.com/work/travelu/images/icons/icon-02.png" alt="image destinations" /></i>
-                                        <span>CHOOSE YOUR EXPERIENCE <a href="javascript:void(0);">Discover more</a></span>
+                                        <span>CHOOSE YOUR EXPERIENCE <a href="#">Discover more</a></span>
                                     </li>
                                 </ul>
                             </nav>
@@ -30,7 +30,7 @@ class HeaderStyle extends Component {
                                 <nav className="tg-cartsearch">
                                     <ul>
                                         <li>
-                                        <a href="javascript:void(0);"><img src="http://wahabali.com/work/travelu/images/icons/icon-03.png" alt="image destinations" /></a>
+                                        <a href="#"><img src="http://wahabali.com/work/travelu/images/icons/icon-03.png" alt="image destinations" /></a>
                                         <div className="tg-cartitems">
                                             <div className="tg-cartlistitems">
                                                 <h3>Shopping Cart</h3>
@@ -39,7 +39,7 @@ class HeaderStyle extends Component {
                                                     <div className="tg-contentbox">
                                                     <div className="tg-producthead">
                                                         <em>x 2</em>
-                                                        <h4><a href="javascript:void(0);">Switzerland – 12 Days<span>Hiking Tour</span></a></h4>
+                                                        <h4><a href="#">Switzerland – 12 Days<span>Hiking Tour</span></a></h4>
                                                     </div>
                                                     <span>$600</span>
                                                     </div>
@@ -49,7 +49,7 @@ class HeaderStyle extends Component {
                                                     <div className="tg-contentbox">
                                                     <div className="tg-producthead">
                                                         <em>x 2</em>
-                                                        <h4><a href="javascript:void(0);">Switzerland – 12 Days<span>Hiking Tour</span></a></h4>
+                                                        <h4><a href="#">Switzerland – 12 Days<span>Hiking Tour</span></a></h4>
                                                     </div>
                                                     <span>$600</span>
                                                     </div>
@@ -73,9 +73,9 @@ class HeaderStyle extends Component {
                             <strong className="tg-logo"><a href="index.html"><img src="http://wahabali.com/work/travelu/images/logo.png" alt="company logo here" /></a></strong>
                             <div className="tg-socialsignin">
                                 <ul className="tg-socialicons">
-                                    <li><a href="javascript:void(0);"><i class="icon-facebook-logo-outline"></i></a></li>
-                                    <li><a href="javascript:void(0);"><i class="icon-instagram-social-outlined-logo"></i></a></li>
-                                    <li><a href="javascript:void(0);"><i class="icon-twitter-social-outlined-logo"></i></a></li>
+                                    <li><a href="#"><i className="icon-facebook-logo-outline"></i></a></li>
+                                    <li><a href="#"><i className="icon-instagram-social-outlined-logo"></i></a></li>
+                                    <li><a href="#"><i className="icon-twitter-social-outlined-logo"></i></a></li>
                                 </ul>
                                 <div className="tg-userbox">
                                     <a id="tg-btnsignin" className="tg-btn" href="#tg-loginsingup"><span>sign in</span></a>
@@ -88,7 +88,7 @@ class HeaderStyle extends Component {
                                         <ul className="dropdown-menu tg-dropdownusermenu" aria-labelledby="tg-dropdowndashboard">
                                         <li><a href="dashboard.html">Dashboard</a></li>
                                         <li><a href="dashboard.html">Edit Profile</a></li>
-                                        <li><a href="javascript:void(0);">Sign Out</a></li>
+                                        <li><a href="#">Sign Out</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -105,7 +105,7 @@ class HeaderStyle extends Component {
                                 <div id="tg-navigation" className="collapse navbar-collapse tg-navigation">
                                     <ul>
                                         <li className="menu-item-has-children current-menu-item">
-                                        <a href="javascript:void(0);">Home</a>
+                                        <a href="#">Home</a>
                                         <ul className="sub-menu">
                                             <li className="current-menu-item"><a href="index.html">Home ~ Modern</a></li>
                                             <li><a href="indexv2.html">Home ~ Full Screen</a></li>
@@ -116,7 +116,7 @@ class HeaderStyle extends Component {
                                         </li>
                                         <li><a href="destinations.html">destinations</a></li>
                                         <li className="menu-item-has-children menu-item-has-mega-menu">
-                                        <a href="javascript:void(0);">listings</a>
+                                        <a href="#">listings</a>
                                         <div className="mega-menu">
                                             <ul>
                                                 <li><a href="listingvone.html">list style one</a></li>
@@ -131,7 +131,7 @@ class HeaderStyle extends Component {
                                                 <div className="tg-trendingtripsslider tg-trendingtrips owl-carousel">
                                                     <div className="item tg-trendingtrip">
                                                     <figure>
-                                                        <a href="javascript:void(0);">
+                                                        <a href="#">
                                                             <img src="http://wahabali.com/work/travelu/images/tours/img-05.jpg" alt="image destinations" />
                                                             <div className="tg-hover">
                                                                 <span className="tg-stars"><span></span></span>
@@ -147,7 +147,7 @@ class HeaderStyle extends Component {
                                                     </div>
                                                     <div className="item tg-trendingtrip">
                                                     <figure>
-                                                        <a href="javascript:void(0);">
+                                                        <a href="#">
                                                             <img src="http://wahabali.com/work/travelu/images/tours/img-06.jpg" alt="image destinations" />
                                                             <div className="tg-hover">
                                                                 <span className="tg-stars"><span></span></span>
@@ -163,7 +163,7 @@ class HeaderStyle extends Component {
                                                     </div>
                                                     <div className="item tg-trendingtrip">
                                                     <figure>
-                                                        <a href="javascript:void(0);">
+                                                        <a href="#">
                                                             <img src="http://wahabali.com/work/travelu/images/tours/img-07.jpg" alt="image destinations" />
                                                             <div className="tg-hover">
                                                                 <span className="tg-stars"><span></span></span>
@@ -179,7 +179,7 @@ class HeaderStyle extends Component {
                                                     </div>
                                                     <div className="item tg-trendingtrip">
                                                     <figure>
-                                                        <a href="javascript:void(0);">
+                                                        <a href="#">
                                                             <img src="http://wahabali.com/work/travelu/images/tours/img-08.jpg" alt="image destinations" />
                                                             <div className="tg-hover">
                                                                 <span className="tg-stars"><span></span></span>
@@ -198,7 +198,7 @@ class HeaderStyle extends Component {
                                         </div>
                                         </li>
                                         <li className="menu-item-has-children">
-                                        <a href="javascript:void(0);">pages</a>
+                                        <a href="#">pages</a>
                                         <ul className="sub-menu">
                                             <li><a href="faqs.html">FAQ’s</a></li>
                                             <li><a href="packages.html">Table</a></li>
@@ -209,7 +209,7 @@ class HeaderStyle extends Component {
                                             <li><a href="comingsoon.html">Coming Soon</a></li>
                                             <li><a href="cart.html">cart</a></li>
                                             <li className="menu-item-has-children">
-                                                <a href="javascript:void(0);">Tours</a>
+                                                <a href="#">Tours</a>
                                                 <ul className="sub-menu">
                                                     <li><a href="tourcatagory.html">Tour Catagory</a></li>
                                                     <li><a href="tourbookingdetail.html">Tour Detail</a></li>
