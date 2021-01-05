@@ -33,7 +33,7 @@ class Header extends Component {
                                 <div className="item tg-trendingtrip">
                                     <figure>
                                         <a href="#">
-                                            <img src="http://wahabali.com/work/travelu/images/tours/img-05.jpg" alt="image destinations"/>
+                                            <img src="/images/tours/img-05.jpg" alt="image destinations"/>
                                             <div className="tg-hover">
                                                 <span className="tg-stars"><span></span></span>
                                                 <span className="tg-tourduration">7 Days</span>
@@ -49,7 +49,7 @@ class Header extends Component {
                                 <div className="item tg-trendingtrip">
                                     <figure>
                                         <a href="#">
-                                            <img src="http://wahabali.com/work/travelu/images/tours/img-06.jpg" alt="image destinations" />
+                                            <img src="/images/tours/img-06.jpg" alt="image destinations" />
                                             <div className="tg-hover">
                                                 <span className="tg-stars"><span></span></span>
                                                 <span className="tg-tourduration">7 Days</span>
@@ -65,7 +65,7 @@ class Header extends Component {
                                 <div className="item tg-trendingtrip">
                                     <figure>
                                         <a href="#">
-                                            <img src="http://wahabali.com/work/travelu/images/tours/img-07.jpg" alt="image destinations" />
+                                            <img src="/images/tours/img-07.jpg" alt="image destinations" />
                                             <div className="tg-hover">
                                                 <span className="tg-stars"><span></span></span>
                                                 <span className="tg-tourduration">7 Days</span>
@@ -81,7 +81,7 @@ class Header extends Component {
                                 <div className="item tg-trendingtrip">
                                     <figure>
                                         <a href="#">
-                                            <img src="http://wahabali.com/work/travelu/images/tours/img-08.jpg" alt="image destinations" />
+                                            <img src="/images/tours/img-08.jpg" alt="image destinations" />
                                             <div className="tg-hover">
                                                 <span className="tg-stars"><span></span></span>
                                                 <span className="tg-tourduration">7 Days</span>

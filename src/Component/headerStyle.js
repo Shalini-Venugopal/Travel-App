@@ -11,11 +11,11 @@ class HeaderStyle extends Component {
                             <nav className="tg-infonav">
                                 <ul>
                                     <li>
-                                        <i><img src="http://wahabali.com/work/travelu/images/icons/icon-01.png" alt="image destinations" /></i>
+                                        <i><img src="/images/icons/icon-01.png" alt="image destinations" /></i>
                                         <span>1-800-321-6543</span>
                                     </li>
                                     <li>
-                                        <i><img src="http://wahabali.com/work/travelu/images/icons/icon-02.png" alt="image destinations" /></i>
+                                        <i><img src="/images/icons/icon-02.png" alt="image destinations" /></i>
                                         <span>CHOOSE YOUR EXPERIENCE <a href="#">Discover more</a></span>
                                     </li>
                                 </ul>
@@ -30,12 +30,12 @@ class HeaderStyle extends Component {
                                 <nav className="tg-cartsearch">
                                     <ul>
                                         <li>
-                                        <a href="#"><img src="http://wahabali.com/work/travelu/images/icons/icon-03.png" alt="image destinations" /></a>
+                                        <a href="#"><img src="/images/icons/icon-03.png" alt="image destinations" /></a>
                                         <div className="tg-cartitems">
                                             <div className="tg-cartlistitems">
                                                 <h3>Shopping Cart</h3>
                                                 <div className="tg-cartitem">
-                                                    <figure className="tg-itemimg"><img src="http://wahabali.com/work/travelu/images/products/img-11.jpg" alt="image description" /></figure>
+                                                    <figure className="tg-itemimg"><img src="/images/products/img-11.jpg" alt="image description" /></figure>
                                                     <div className="tg-contentbox">
                                                     <div className="tg-producthead">
                                                         <em>x 2</em>
@@ -45,7 +45,7 @@ class HeaderStyle extends Component {
                                                     </div>
                                                 </div>
                                                 <div className="tg-cartitem">
-                                                    <figure className="tg-itemimg"><img src="http://wahabali.com/work/travelu/images/products/img-11.jpg" alt="image description" /></figure>
+                                                    <figure className="tg-itemimg"><img src="/images/products/img-11.jpg" alt="image description" /></figure>
                                                     <div className="tg-contentbox">
                                                     <div className="tg-producthead">
                                                         <em>x 2</em>
@@ -64,13 +64,13 @@ class HeaderStyle extends Component {
                                             </div>
                                         </div>
                                         </li>
-                                        <li><a href="#tg-search"><img src="http://wahabali.com/work/travelu/images/icons/icon-04.png" alt="image destinations" /></a></li>
+                                        <li><a href="#tg-search"><img src="/images/icons/icon-04.png" alt="image destinations" /></a></li>
                                     </ul>
                                 </nav>
                             </div>
                             </div>
                             <div className="tg-navigationarea tg-headerfixed">
-                            <strong className="tg-logo"><a href="index.html"><img src="http://wahabali.com/work/travelu/images/logo.png" alt="company logo here" /></a></strong>
+                            <strong className="tg-logo"><a href="index.html"><img src="/images/logo.png" alt="company logo here" /></a></strong>
                             <div className="tg-socialsignin">
                                 <ul className="tg-socialicons">
                                     <li><a href="#"><i className="icon-facebook-logo-outline"></i></a></li>
@@ -81,7 +81,7 @@ class HeaderStyle extends Component {
                                     <a id="tg-btnsignin" className="tg-btn" href="#tg-loginsingup"><span>sign in</span></a>
                                     <div className="dropdown tg-dropdown">
                                         <button className="tg-btndropdown" id="tg-dropdowndashboard" type="button" data-toggle="dropdown">
-                                        <img src="http://wahabali.com/work/travelu/images/author/img-01.jpg" alt="image description" />
+                                        <img src="/images/author/img-01.jpg" alt="image description" />
                                         <span>john smith</span>
                                         <i className="fa fa-caret-down"></i>
                                         </button>
@@ -132,7 +132,7 @@ class HeaderStyle extends Component {
                                                     <div className="item tg-trendingtrip">
                                                     <figure>
                                                         <a href="#">
-                                                            <img src="http://wahabali.com/work/travelu/images/tours/img-05.jpg" alt="image destinations" />
+                                                            <img src="/images/tours/img-05.jpg" alt="image destinations" />
                                                             <div className="tg-hover">
                                                                 <span className="tg-stars"><span></span></span>
                                                                 <span className="tg-tourduration">7 Days</span>
@@ -148,7 +148,7 @@ class HeaderStyle extends Component {
                                                     <div className="item tg-trendingtrip">
                                                     <figure>
                                                         <a href="#">
-                                                            <img src="http://wahabali.com/work/travelu/images/tours/img-06.jpg" alt="image destinations" />
+                                                            <img src="/images/tours/img-06.jpg" alt="image destinations" />
                                                             <div className="tg-hover">
                                                                 <span className="tg-stars"><span></span></span>
                                                                 <span className="tg-tourduration">7 Days</span>
@@ -164,7 +164,7 @@ class HeaderStyle extends Component {
                                                     <div className="item tg-trendingtrip">
                                                     <figure>
                                                         <a href="#">
-                                                            <img src="http://wahabali.com/work/travelu/images/tours/img-07.jpg" alt="image destinations" />
+                                                            <img src="/images/tours/img-07.jpg" alt="image destinations" />
                                                             <div className="tg-hover">
                                                                 <span className="tg-stars"><span></span></span>
                                                                 <span className="tg-tourduration">7 Days</span>
@@ -180,7 +180,7 @@ class HeaderStyle extends Component {
                                                     <div className="item tg-trendingtrip">
                                                     <figure>
                                                         <a href="#">
-                                                            <img src="http://wahabali.com/work/travelu/images/tours/img-08.jpg" alt="image destinations" />
+                                                            <img src="/images/tours/img-08.jpg" alt="image destinations" />
                                                             <div className="tg-hover">
                                                                 <span className="tg-stars"><span></span></span>
                                                                 <span className="tg-tourduration">7 Days</span>

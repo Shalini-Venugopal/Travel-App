@@ -35,7 +35,7 @@ class Footer extends React.Component {
 									    <ul>
 										    <li>
 											    <figure>
-												    <a href="#"><img src="http://wahabali.com/work/travelu/images/thumbnail/img-01.jpg" alt="image destinations" /></a>
+												    <a href="#"><img src="/images/thumbnail/img-01.jpg" alt="image destinations" /></a>
 											    </figure>
 											    <div className="tg-newcontent">
 												    <h4><a href="#">Bungee Jumping Trip</a></h4>
@@ -47,7 +47,7 @@ class Footer extends React.Component {
 										    </li>
 										    <li>
 											    <figure>
-												    <a href="#"><img src="http://wahabali.com/work/travelu/images/thumbnail/img-02.jpg" alt="image destinations" /></a>
+												    <a href="#"><img src="/images/thumbnail/img-02.jpg" alt="image destinations" /></a>
 											    </figure>
 											    <div className="tg-newcontent">
 												    <h4><a href="#">Trip to White Castle</a></h4>
@@ -87,7 +87,7 @@ class Footer extends React.Component {
 									    <form className="tg-formtheme tg-formnewsletter">
 										    <fieldset>
 											    <input type="email" name="email" className="form-control" placeholder="Your Email" />
-											    <button type="submit"><img src="http://wahabali.com/work/travelu/images/icons/icon-08.png" alt="image destinations" /></button>
+											    <button type="submit"><img src="/images/icons/icon-08.png" alt="image destinations" /></button>
 										    </fieldset>
 									    </form>
 									    <span>We respect your privacy</span>

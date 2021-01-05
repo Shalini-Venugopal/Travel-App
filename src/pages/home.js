@@ -6,7 +6,7 @@ import HeaderStyle from '../Component/headerStyle';
 import Search from '../pages/search';
 import HomeSlider from '../pages/homeSlider';
 import MainSlide from './mainSlide';
-import LoginSignUp from './LoginSignUp';
+// import LoginSignUp from './LoginSignUp';
 
 
 class Home extends React.Component {

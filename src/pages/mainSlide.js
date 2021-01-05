@@ -13,7 +13,7 @@ class MainSlide extends React.Component {
                                         <div className="tg-tourdestination tg-tourdestinationbigbox">
                                             <figure>
                                                 <a href="#">
-                                                    <img src="http://wahabali.com/work/travelu/images/destination/img-01.jpg" alt="image destinations" />
+                                                    <img src="/images/destination/img-01.jpg" alt="image destinations" />
                                                         <div className="tg-hoverbox">
                                                             <div className="tg-adventuretitle">
                                                                 <h2>Ice Adventure Vacations</h2>
@@ -28,7 +28,7 @@ class MainSlide extends React.Component {
                                         <div className="tg-tourdestination">
                                             <figure>
                                                 <a href="#">
-                                                    <img src="http://wahabali.com/work/travelu/images/destination/img-02.jpg" alt="image destinations" />
+                                                    <img src="/images/destination/img-02.jpg" alt="image destinations" />
                                                         <div className="tg-hoverbox">
                                                             <div className="tg-adventuretitle">
                                                                 <h2>National Park</h2>
@@ -40,7 +40,7 @@ class MainSlide extends React.Component {
                                         <div className="tg-tourdestination">
                                             <figure>
                                                 <a href="#">
-                                                    <img src="http://wahabali.com/work/travelu/images/destination/img-03.jpg" alt="image destinations" />
+                                                    <img src="/images/destination/img-03.jpg" alt="image destinations" />
                                                     <div className="tg-hoverbox">
                                                         <div className="tg-adventuretitle">
                                                             <h2>Adult Vacations</h2>
@@ -106,7 +106,7 @@ class MainSlide extends React.Component {
                                     <div id="tg-populartoursslider" className="tg-populartoursslider tg-populartours owl-carousel">
                                         <div className="item tg-populartour">
                                             <figure>
-                                            <a href="tourbookingdetail.html"><img src="http://wahabali.com/work/travelu/images/tours/img-01.jpg" alt="image destinations" /></a>
+                                            <a href="tourbookingdetail.html"><img src="/images/tours/img-01.jpg" alt="image destinations" /></a>
                                             <span className="tg-descount">25% Off</span>
                                             </figure>
                                             <div className="tg-populartourcontent">
@@ -130,7 +130,7 @@ class MainSlide extends React.Component {
                                             </div>
                                         </div>
                                         <div className="item tg-populartour">
-                                            <figure><a href="tourbookingdetail.html"><img src="http://wahabali.com/work/travelu/images/tours/img-02.jpg" alt="image destinations" /></a></figure>
+                                            <figure><a href="tourbookingdetail.html"><img src="/images/tours/img-02.jpg" alt="image destinations" /></a></figure>
                                             <div className="tg-populartourcontent">
                                             <div className="tg-populartourtitle">
                                                 <h3><a href="tourbookingdetail.html">Best of Canada Tours and Travel</a></h3>
@@ -152,7 +152,7 @@ class MainSlide extends React.Component {
                                             </div>
                                         </div>
                                         <div className="item tg-populartour">
-                                            <figure><a href="tourbookingdetail.html"><img src="http://wahabali.com/work/travelu/images/tours/img-03.jpg" alt="image destinations" /></a></figure>
+                                            <figure><a href="tourbookingdetail.html"><img src="/images/tours/img-03.jpg" alt="image destinations" /></a></figure>
                                             <div className="tg-populartourcontent">
                                             <div className="tg-populartourtitle">
                                                 <h3><a href="tourbookingdetail.html">Italy – 3 Days in Rome, Golden Gate</a></h3>
@@ -174,7 +174,7 @@ class MainSlide extends React.Component {
                                             </div>
                                         </div>
                                         <div className="item tg-populartour">
-                                            <figure><a href="tourbookingdetail.html"><img src="http://wahabali.com/work/travelu/images/tours/img-04.jpg" alt="image destinations" /></a></figure>
+                                            <figure><a href="tourbookingdetail.html"><img src="/images/tours/img-04.jpg" alt="image destinations" /></a></figure>
                                             <div className="tg-populartourcontent">
                                             <div className="tg-populartourtitle">
                                                 <h3><a href="tourbookingdetail.html">Best of Canada Tours and Travel</a></h3>
@@ -207,7 +207,7 @@ class MainSlide extends React.Component {
                             <div className="row">
                                 <div className="tg-ourdestination">
                                 <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 tg-verticalmiddle">
-                                    <figure><img src="http://wahabali.com/work/travelu/images/placeholder/placeholder-01.png" alt="image destinations" /></figure>
+                                    <figure><img src="/images/placeholder/placeholder-01.png" alt="image destinations" /></figure>
                                 </div>
                                 <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 tg-verticalmiddle">
                                     <div className="tg-ourdestinationcontent">
@@ -269,7 +269,7 @@ class MainSlide extends React.Component {
                                 <div id="tg-destinationsslider" className="tg-destinationsslider tg-destinations owl-carousel">
                                 <div className="item tg-destination">
                                     <figure>
-                                        <a href="tourbookingdetail.html"><img src="http://wahabali.com/work/travelu/images/destination/img-04.jpg" alt="image description" /></a>
+                                        <a href="tourbookingdetail.html"><img src="/images/destination/img-04.jpg" alt="image description" /></a>
                                         <figcaption>
                                             <h2><a href="tourbookingdetail.html">Paris</a></h2>
                                             <div className="tg-description">
@@ -280,7 +280,7 @@ class MainSlide extends React.Component {
                                 </div>
                                 <div className="item tg-destination">
                                     <figure>
-                                        <a href="tourbookingdetail.html"><img src="http://wahabali.com/work/travelu/images/destination/img-05.jpg" alt="image description" /></a>
+                                        <a href="tourbookingdetail.html"><img src="/images/destination/img-05.jpg" alt="image description" /></a>
                                         <figcaption>
                                             <h2><a href="tourbookingdetail.html">Egypt</a></h2>
                                             <div className="tg-description">
@@ -289,7 +289,7 @@ class MainSlide extends React.Component {
                                         </figcaption>
                                     </figure>
                                     <figure>
-                                        <a href="tourbookingdetail.html"><img src="http://wahabali.com/work/travelu/images/destination/img-06.jpg" alt="image description" /></a>
+                                        <a href="tourbookingdetail.html"><img src="/images/destination/img-06.jpg" alt="image description" /></a>
                                         <figcaption>
                                             <h2><a href="tourbookingdetail.html">London</a></h2>
                                             <div className="tg-description">
@@ -300,7 +300,7 @@ class MainSlide extends React.Component {
                                 </div>
                                 <div className="item tg-destination">
                                     <figure>
-                                        <a href="#"><img src="http://wahabali.com/work/travelu/images/destination/img-07.jpg" alt="image description" /></a>
+                                        <a href="#"><img src="/images/destination/img-07.jpg" alt="image description" /></a>
                                         <figcaption>
                                             <h2><a href="#">Istanbul</a></h2>
                                             <div className="tg-description">
@@ -311,7 +311,7 @@ class MainSlide extends React.Component {
                                 </div>
                                 <div className="item tg-destination">
                                     <figure>
-                                        <a href="#"><img src="http://wahabali.com/work/travelu/images/destination/img-04.jpg" alt="image description" /></a>
+                                        <a href="#"><img src="/images/destination/img-04.jpg" alt="image description" /></a>
                                         <figcaption>
                                             <h2><a href="#">Paris</a></h2>
                                             <div className="tg-description">
@@ -322,7 +322,7 @@ class MainSlide extends React.Component {
                                 </div>
                                 <div className="item tg-destination">
                                     <figure>
-                                        <a href="#"><img src="http://wahabali.com/work/travelu/images/destination/img-05.jpg" alt="image description" /></a>
+                                        <a href="#"><img src="/images/destination/img-05.jpg" alt="image description" /></a>
                                         <figcaption>
                                             <h2><a href="#">Egypt</a></h2>
                                             <div className="tg-description">
@@ -331,7 +331,7 @@ class MainSlide extends React.Component {
                                         </figcaption>
                                     </figure>
                                     <figure>
-                                        <a href="#"><img src="http://wahabali.com/work/travelu/images/destination/img-06.jpg" alt="image description" /></a>
+                                        <a href="#"><img src="/images/destination/img-06.jpg" alt="image description" /></a>
                                         <figcaption>
                                             <h2><a href="#">London</a></h2>
                                             <div className="tg-description">
@@ -342,7 +342,7 @@ class MainSlide extends React.Component {
                                 </div>
                                 <div className="item tg-destination">
                                     <figure>
-                                        <a href="#"><img src="http://wahabali.com/work/travelu/images/destination/img-07.jpg" alt="image description" /></a>
+                                        <a href="#"><img src="/images/destination/img-07.jpg" alt="image description" /></a>
                                         <figcaption>
                                             <h2><a href="#">Istanbul</a></h2>
                                             <div className="tg-description">
@@ -356,13 +356,13 @@ class MainSlide extends React.Component {
                         </div>
                     </section>
 
-                    <section className="tg-parallax" data-appear-top-offset="600" data-parallax="scroll" data-image-src="images/parallax/bgparallax-02.jpg">
+                    <section className="tg-parallax" data-appear-top-offset="600" data-parallax="scroll" data-image-src="images/girl_Image.jpg">
                         <div className="tg-sectionspace tg-haslayout">
                             <div className="container">
                                 <div className="row">
                                 <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                                     <div className="tg-calltoaction">
-                                        <div className="tg-pattern"><img src="http://wahabali.com/work/travelu/images/patternw.png" alt="image destination"/></div>
+                                        <div className="tg-pattern"><img src="/images/patternw.png" alt="image destination"/></div>
                                         <h2>Get 10% Off on your Next Travel</h2>
                                         <div className="tg-description">
                                             <p>Travel between 22 April to 21 May and get existing offers along with a sure 10% cash discount</p>
@@ -389,7 +389,7 @@ class MainSlide extends React.Component {
                                 </div>
                                 <div id="tg-guidesslider" className="tg-guidesslider tg-guides owl-carousel">
                                     <div className="item tg-guide">
-                                        <figure><img src="http://wahabali.com/work/travelu/images/Guides/img-01.jpg" alt="image destination"/></figure>
+                                        <figure><img src="/images/Guides/img-01.jpg" alt="image destination"/></figure>
                                         <div className="tg-guidecontent">
                                             <div className="tg-guidecontenthead">
                                             <h3>Martin Blake</h3>
@@ -406,7 +406,7 @@ class MainSlide extends React.Component {
                                         </div>
                                     </div>
                                     <div className="item tg-guide">
-                                        <figure><img src="http://wahabali.com/work/travelu/images/Guides/img-02.jpg" alt="image destination" /></figure>
+                                        <figure><img src="/images/Guides/img-02.jpg" alt="image destination" /></figure>
                                         <div className="tg-guidecontent">
                                             <div className="tg-guidecontenthead">
                                             <h3>Martin Blake</h3>
@@ -423,7 +423,7 @@ class MainSlide extends React.Component {
                                         </div>
                                     </div>
                                     <div className="item tg-guide">
-                                        <figure><img src="http://wahabali.com/work/travelu/images/Guides/img-03.jpg" alt="image destination" /></figure>
+                                        <figure><img src="/images/Guides/img-03.jpg" alt="image destination" /></figure>
                                         <div className="tg-guidecontent">
                                             <div className="tg-guidecontenthead">
                                             <h3>Martin Blake</h3>
@@ -440,7 +440,7 @@ class MainSlide extends React.Component {
                                         </div>
                                     </div>
                                     <div className="item tg-guide">
-                                        <figure><img src="http://wahabali.com/work/travelu/images/Guides/img-01.jpg" alt="image destination"/></figure>
+                                        <figure><img src="/images/Guides/img-01.jpg" alt="image destination"/></figure>
                                         <div className="tg-guidecontent">
                                             <div className="tg-guidecontenthead">
                                             <h3>Martin Blake</h3>
@@ -457,7 +457,7 @@ class MainSlide extends React.Component {
                                         </div>
                                     </div>
                                     <div className="item tg-guide">
-                                        <figure><img src="http://wahabali.com/work/travelu/images/Guides/img-02.jpg" alt="image destination"/></figure>
+                                        <figure><img src="/images/Guides/img-02.jpg" alt="image destination"/></figure>
                                         <div className="tg-guidecontent">
                                             <div className="tg-guidecontenthead">
                                             <h3>Martin Blake</h3>
@@ -474,7 +474,7 @@ class MainSlide extends React.Component {
                                         </div>
                                     </div>
                                     <div className="item tg-guide">
-                                        <figure><img src="http://wahabali.com/work/travelu/images/Guides/img-03.jpg" alt="image destination"/></figure>
+                                        <figure><img src="/images/Guides/img-03.jpg" alt="image destination"/></figure>
                                         <div className="tg-guidecontent">
                                             <div className="tg-guidecontenthead">
                                             <h3>Martin Blake</h3>
@@ -502,23 +502,23 @@ class MainSlide extends React.Component {
                                 <div className="row">
                                 <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                                     <div className="tg-ourpartners">
-                                        <div className="tg-pattern"><img src="http://wahabali.com/work/travelu/images/patternw.png" alt="image destination"/></div>
+                                        <div className="tg-pattern"><img src="/images/patternw.png" alt="image destination"/></div>
                                         <h2>Our Partners</h2>
                                         <ul className="tg-partners">
                                             <li>
-                                            <figure><a href="#"><img src="http://wahabali.com/work/travelu/images/partners/img-01.png" alt="image destinations"/></a></figure>
+                                            <figure><a href="#"><img src="/images/partners/img-01.png" alt="image destinations"/></a></figure>
                                             </li>
                                             <li>
-                                            <figure><a href="#"><img src="http://wahabali.com/work/travelu/images/partners/img-02.png" alt="image destinations"/></a></figure>
+                                            <figure><a href="#"><img src="/images/partners/img-02.png" alt="image destinations"/></a></figure>
                                             </li>
                                             <li>
-                                            <figure><a href="#"><img src="http://wahabali.com/work/travelu/images/partners/img-03.png" alt="image destinations"/></a></figure>
+                                            <figure><a href="#"><img src="/images/partners/img-03.png" alt="image destinations"/></a></figure>
                                             </li>
                                             <li>
-                                            <figure><a href="#"><img src="http://wahabali.com/work/travelu/images/partners/img-03.png" alt="image destinations"/></a></figure>
+                                            <figure><a href="#"><img src="/images/partners/img-03.png" alt="image destinations"/></a></figure>
                                             </li>
                                             <li>
-                                            <figure><a href="#"><img src="http://wahabali.com/work/travelu/images/partners/img-05.png" alt="image destinations"/></a></figure>
+                                            <figure><a href="#"><img src="/images/partners/img-05.png" alt="image destinations"/></a></figure>
                                             </li>
                                         </ul>
                                     </div>

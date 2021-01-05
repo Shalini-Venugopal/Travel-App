@@ -1,10 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import LoginSignUp from './pages/LoginSignUp';
 
 import home from './pages/home';
 <Route exact path="/" component={home} />
+// <Route exact path="/" component={LoginSignUp} />
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Router>
         <Switch>
             <Route exact path="/" component={home} />
+            <Route exact path="/signup" component={LoginSignUp} />
         </Switch>
       </Router>
     </div>
