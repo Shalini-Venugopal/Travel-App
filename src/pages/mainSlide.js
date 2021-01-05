@@ -356,7 +356,7 @@ class MainSlide extends React.Component {
                         </div>
                     </section>
 
-                    <section className="tg-parallax" data-appear-top-offset="600" data-parallax="scroll" data-image-src="images/girl_Image.jpg">
+                    <section className="tg-parallax" data-appear-top-offset="600" data-parallax="scroll" data-image-src="images/parallax/bgparallax-02.jpg">
                         <div className="tg-sectionspace tg-haslayout">
                             <div className="container">
                                 <div className="row">
