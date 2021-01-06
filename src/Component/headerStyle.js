@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {Link} from 'react-router-dom';
 
 class HeaderStyle extends Component {
     render(){
@@ -23,8 +24,8 @@ class HeaderStyle extends Component {
                             <div className="tg-addnavcartsearch">
                                 <nav className="tg-addnav">
                                     <ul>
-                                        <li><a href="aboutus.html">about</a></li>
-                                        <li><a href="contactus.html">contact</a></li>
+                                        <li><Link to="/aboutus">about</Link></li>
+                                        <li><Link to="/contactus">contact</Link></li>
                                     </ul>
                                 </nav>
                                 <nav className="tg-cartsearch">
@@ -78,7 +79,7 @@ class HeaderStyle extends Component {
                                     <li><a href="#"><i className="icon-twitter-social-outlined-logo"></i></a></li>
                                 </ul>
                                 <div className="tg-userbox">
-                                    <a id="tg-btnsignin" className="tg-btn" href="#tg-loginsingup"><span>sign in</span></a>
+                                    <a id="tg-btnsignin" className="tg-btn" href="/signup"><span>sign in</span></a>
                                     <div className="dropdown tg-dropdown">
                                         <button className="tg-btndropdown" id="tg-dropdowndashboard" type="button" data-toggle="dropdown">
                                         <img src="/images/author/img-01.jpg" alt="image description" />
@@ -105,16 +106,10 @@ class HeaderStyle extends Component {
                                 <div id="tg-navigation" className="collapse navbar-collapse tg-navigation">
                                     <ul>
                                         <li className="menu-item-has-children current-menu-item">
-                                        <a href="#">Home</a>
-                                        <ul className="sub-menu">
-                                            <li className="current-menu-item"><a href="index.html">Home ~ Modern</a></li>
-                                            <li><a href="indexv2.html">Home ~ Full Screen</a></li>
-                                            <li><a href="indexv3.html">Home ~ Creative</a></li>
-                                            <li><a href="indexv4.html">Home ~ Simple</a></li>
-                                            <li><a href="indexv5.html">Home ~ Video</a></li>
-                                        </ul>
+                                        
+                                        <Link to="/">Home</Link>
                                         </li>
-                                        <li><a href="destinations.html">destinations</a></li>
+                                        <li><Link to="/destination">Destination</Link></li>
                                         <li className="menu-item-has-children menu-item-has-mega-menu">
                                         <a href="#">listings</a>
                                         <div className="mega-menu">
@@ -202,8 +197,8 @@ class HeaderStyle extends Component {
                                         <ul className="sub-menu">
                                             <li><a href="faqs.html">FAQ’s</a></li>
                                             <li><a href="packages.html">Table</a></li>
-                                            <li><a href="aboutus.html">About Us</a></li>
-                                            <li><a href="contactus.html">Contact us</a></li>
+                                            <li><Link to="/aboutus">About Us</Link></li>
+                                            <li><Link to="/contactus">Contact Us</Link></li>
                                             <li><a href="billingdetail.html">Billing Detail</a></li>
                                             <li><a href="404error.html">404 Error</a></li>
                                             <li><a href="comingsoon.html">Coming Soon</a></li>

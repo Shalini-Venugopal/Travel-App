@@ -2,19 +2,19 @@ import React from 'react';
 import Header from '../Component/header';
 import Footer from '../Component/footer';
 import HeaderStyle from "../Component/headerStyle";
-import Login from "../pages/Login";
+import Destinations from "../pages/Destinations";
 
 
-class LoginSignUp extends React.Component {
+class DestinationComponent extends React.Component {
 	render() {
         return(
 			<div>
 				<Header />
-				<HeaderStyle />
-                <Login />
+                <HeaderStyle />
+                <Destinations />
                 <Footer />
 			</div>
         );
     }
 }
-export default LoginSignUp;
+export default DestinationComponent;

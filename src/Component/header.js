@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { BrowserRouter as Router, Route, Switch,Navbar } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 class Header extends Component {
     render(){
@@ -7,16 +7,10 @@ class Header extends Component {
             <div id="tg-wrapper" className="tg-wrapper tg-haslayout">
              <nav id="menu">
             <ul>
-                <li><a href="#">Home</a>
-                    <ul>
-                        <li><a href="index.html">Home ~ Modern</a></li>
-                        <li><a href="indexv2.html">Home ~ Full Screen</a></li>
-                        <li><a href="indexv3.html">Home ~ Creative</a></li>
-                        <li><a href="indexv4.html">Home ~ Simple</a></li>
-                        <li><a href="indexv5.html">Home ~ Video</a></li>
-                    </ul>
+                <li><Link to="/">Home</Link>
+                   
                 </li>
-                <li><a href="destinations.html">Destinations</a></li>
+                <li><Link to="/destination">Destinations</Link></li>
                 <li><a href="#">Listings</a>
                     <div>
                         <ul>
@@ -102,8 +96,8 @@ class Header extends Component {
                     <ul>
                         <li><a href="faqs.html">FAQ’s</a></li>
                         <li><a href="packages.html">Table</a></li>
-                        <li><a href="aboutus.html">About Us</a></li>
-                        <li><a href="contactus.html">Contact us</a></li>
+                        <li><Link to="/aboutus">About Us</Link></li>
+                        <li><Link to="/contactus">Contact Us</Link></li>
                         <li><a href="billingdetail.html">Billing Detail</a></li>
                         <li><a href="404error.html">404 Error</a></li>
                         <li><a href="comingsoon.html">Coming Soon</a></li>
@@ -132,11 +126,8 @@ class Header extends Component {
                     </ul>
                 </li>
             </ul>
-        </nav>
-
-            
-            
-            </div>
+        </nav>   
+    </div>
             
         );
     }
