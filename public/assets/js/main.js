@@ -6,13 +6,13 @@ jQuery(document).on('ready', function() {
 	/* -------------------------------------
 			SCROLLBAR
 	-------------------------------------- */
-	jQuery('.tg-themescrollbar').mCustomScrollbar({
+	jQuery('.tg-themescrollbar').mCustomScrollbar({ 
 		axis:"y",
 	});
 	/* ---------------------------------------
 			STICKY HEADER
 	--------------------------------------- */
-	jQuery('.tg-headerfixed').scrollToFixed();
+	jQuery('.tg-headerfixed').ScrollToFixed();
 	/* -------------------------------------
 			HOME BANNER SLIDER
 	-------------------------------------- */

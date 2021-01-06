@@ -80,12 +80,13 @@ class HomeSlider extends React.Component {
 				</div>
 			</div>
 			<div id="tg-homeslider" className="tg-homeslider owl-carousel tg-haslayout">
-				<img className="item" src="girl_Image.jpg" data-vide-options="position: 0% 50%"></img>
-				<figure className="item" data-vide-bg="poster: images/slider/img-02.jpg" data-vide-options="position: 0% 50%"></figure>
-				<figure className="item" data-vide-bg="poster: images/slider/img-03.jpg" data-vide-options="position: 0% 50%"></figure>
+				<figure className="item" data-vide-bg="poster: images/slider/img-02.jpg" data-vide-options="position: 0% 25%"></figure>
+				
 			</div>
 		</div>
         );
     }
 }
 export default HomeSlider;
+// <figure className="item" data-vide-bg="poster: images/slider/img-01.jpg" data-vide-options="position: 0% 50%"></figure>
+// 				<figure className="item" data-vide-bg="poster: images/slider/img-03.jpg" data-vide-options="position: 0% 50%"></figure>
