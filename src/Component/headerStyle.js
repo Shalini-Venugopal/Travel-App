@@ -213,7 +213,7 @@ class HeaderStyle extends Component {
                                             </li>
                                         </ul>
                                         </li>
-                                        <li><a href="shop.html">shop</a></li>
+                                        <li><Link to="/shop">Shop</Link></li>
                                         <li><a href="blog.html">blog</a></li>
                                     </ul>
                                 </div>

@@ -1,15 +1,17 @@
 import React from 'react';
-import { hashHistory } from 'react-router';
 import { Link } from 'react-router-dom';
 
 class Login extends React.Component {
 	constructor(props) {
-        super(props);
+		super(props);
         this.handleSubmit = this.handleSubmit.bind(this);
-    }
-    handleSubmit(event) {
+	}
+	handlesubmit = (event) => {
+
+    // handleSubmit(event) {
         event.preventDefault();
-		this.props.history.push('/');    
+		console.log(this);
+		// this.props.history.push('/');    
     }
     render() {
         return(
@@ -34,7 +36,7 @@ class Login extends React.Component {
 						</ul>
 						<div className="tg-tabcontent tab-content">
 							<div role="tabpanel" className="tab-pane active fade in" id="home">
-								<form onSubmit={this.handleSubmit} className="tg-formtheme tg-formlogin">
+								<form onSubmit={this.handleSubmit()} className="tg-formtheme tg-formlogin">
 									<fieldset>
 										<div className="form-group">
 											<label>Name or Email <sup>*</sup></label>
@@ -51,7 +53,7 @@ class Login extends React.Component {
 											</div>
 											<span><a href="#">Lost your password?</a></span>
 										</div>
-										<button onSubmit="handleSubmit" type="submit" className="tg-btn tg-btn-lg">Submit</button>
+										<button  type="submit" className="tg-btn tg-btn-lg">Submit</button>
 									</fieldset>
 								</form>
 							</div>

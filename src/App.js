@@ -7,6 +7,7 @@ import AboutUsComponent from './Component/AboutUsComponent';
 import home from './pages/home';
 import ContactUsComponent from './Component/ContactUsComponent';
 import TourCategoryComponent from './Component/TourCategoryComponent';
+import ShopComponent from './Component/ShopComponent';
 <Route exact path="/" component={home} />
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
             <Route exact path="/aboutus" component={AboutUsComponent} />
             <Route exact path="/contactus" component={ContactUsComponent} />
             <Route exact path="/tourcategory" component={TourCategoryComponent} />
+            <Route exact path="/shop" component={ShopComponent} />
         </Switch>
       </Router>
     </div>

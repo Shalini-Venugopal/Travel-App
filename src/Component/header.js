@@ -112,9 +112,9 @@ class Header extends Component {
                         </li>
                     </ul>
                 </li>
-                <li><a href="#">Shop</a>
+                <li><Link to="/shop">Shop</Link>
                     <ul>
-                        <li><a href="shop.html">Shop</a></li>
+                        <li><Link to="/shop">Shop</Link></li>
                         <li><a href="shopdetail.html">Shop Detail</a></li>
                         <li><a href="cart.html">Cart</a></li>
                     </ul>
