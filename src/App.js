@@ -8,8 +8,6 @@ import AboutUsComponent from './Component/AboutUsComponent';
 import home from './pages/home';
 import ContactUsComponent from './Component/ContactUsComponent';
 <Route exact path="/" component={home} />
-// <Route exact path="/" component={LoginSignUp} />
-
 
 function App() {
   return (
