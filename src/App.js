@@ -4,9 +4,9 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import LoginSignUp from './pages/LoginSignUp';
 import DestinationComponent from './Component/DestinationComponent';
 import AboutUsComponent from './Component/AboutUsComponent';
-
 import home from './pages/home';
 import ContactUsComponent from './Component/ContactUsComponent';
+import TourCategoryComponent from './Component/TourCategoryComponent';
 <Route exact path="/" component={home} />
 
 function App() {
@@ -19,6 +19,7 @@ function App() {
             <Route exact path="/destination" component={DestinationComponent} />
             <Route exact path="/aboutus" component={AboutUsComponent} />
             <Route exact path="/contactus" component={ContactUsComponent} />
+            <Route exact path="/tourcategory" component={TourCategoryComponent} />
         </Switch>
       </Router>
     </div>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 class MainSlide extends React.Component {
     render() {
@@ -148,7 +149,7 @@ class MainSlide extends React.Component {
                                             </a>
                                             </li>
                                         </ul>
-                                        <a className="tg-btn" href="tourcatagory.html"><span>all destinations</span></a>
+                                        <Link to="/tourcategory">all destinations</Link>
                                     </div>
                                 </div>
                                 </div>
