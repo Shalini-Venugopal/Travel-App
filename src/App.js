@@ -10,6 +10,8 @@ import TourCategoryComponent from './Component/TourCategoryComponent';
 import ShopComponent from './Component/ShopComponent';
 import ShopDetailComponent from './Component/ShopDetailComponent';
 import BillDetailComponent from './Component/BillDetailComponent';
+import BlogComponent from './Component/BlogComponent';
+import BlogDetailComponent from './Component/BlogDetailComponent';
 <Route exact path="/" component={home} />
 
 function App() {
@@ -26,6 +28,8 @@ function App() {
             <Route exact path="/shop" component={ShopComponent} />
             <Route exact path="/shopdetail" component={ShopDetailComponent} />
             <Route exact path="/billdetail" component={BillDetailComponent} />
+            <Route exact path="/blog" component={BlogComponent}/>
+            <Route exact path="/blogdetail" component={BlogDetailComponent} />
         </Switch>
       </Router>
     </div>

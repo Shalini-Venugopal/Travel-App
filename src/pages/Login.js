@@ -16,7 +16,7 @@ class Login extends React.Component {
     render() {
         return(
 			<div>
-			<img src="../images/destination/img-01.jpg" className="img-thumbnail" style={{ width: '50%', height: '50%' }} />
+			<img src="../images/blog/img-15.jpg" className="img-thumbnail" style={{ width: '50%', height: '50%' }} />
             <div className="tg-contentarea tg-themescrollbar">
 			<div className="tg-scrollbar">
 				<button type="button" className="close">x</button>
