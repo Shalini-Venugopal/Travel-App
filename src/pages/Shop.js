@@ -1,10 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 class Shop extends React.Component {
     render() {
         return(
             <div>
-                <section className="tg-parallax tg-innerbanner" data-appear-top-offset="600" data-parallax="scroll" data-image-src="images/parallax/bgparallax-05.jpg">
+                <section className="tg-parallax tg-innerbanner" data-appear-top-offset="600" data-parallax="scroll" data-image-src="images/parallax/bgparallax-07.jpg">
                     <div className="tg-sectionspace tg-haslayout">
                         <div className="container">
                             <div className="row">
@@ -33,10 +34,10 @@ class Shop extends React.Component {
 								<div className="row">
 									<div className="col-xs-6 col-sm-6 col-md-4 col-lg-4">
 										<div className="tg-product">
-											<figure><a href="shopdetail.html"><img src="images/products/img-01.jpg" alt="image destinations" /></a></figure>
+											<figure><Link to="/shopdetail"></Link><img src="images/products/img-01.jpg" alt="image destinations" /></figure>
 											<div className="tg-productcontent">
 												<div className="tg-producttitle">
-													<h3><a href="shopdetail.html">Simple Fabric Bag</a></h3>
+													<h3><Link to="/shopdetail">Simple Fabric Bag</Link></h3>
 												</div>
 												<div className="tg-description">
 													<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh...</p>
@@ -61,10 +62,10 @@ class Shop extends React.Component {
 									</div>
 									<div className="col-xs-6 col-sm-6 col-md-4 col-lg-4">
 										<div className="tg-product">
-											<figure><a href="shopdetail.html"><img src="images/products/img-02.jpg" alt="image destinations"/></a></figure>
+											<figure><Link to="/shopdetail"></Link><img src="images/products/img-02.jpg" alt="image destinations"/></figure>
 											<div className="tg-productcontent">
 												<div className="tg-producttitle">
-													<h3><a href="shopdetail.html">Simple Fabric Bag</a></h3>
+													<h3><Link to="/shopdetail">Simple Camera Bag</Link></h3>
 												</div>
 												<div className="tg-description">
 													<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh...</p>
@@ -89,10 +90,10 @@ class Shop extends React.Component {
 									</div>
 									<div className="col-xs-6 col-sm-6 col-md-4 col-lg-4">
 										<div className="tg-product">
-											<figure><a href="shopdetail.html"><img src="images/products/img-03.jpg" alt="image destinations"/></a></figure>
+											<figure><Link to="/shopdetail"></Link><img src="images/products/img-03.jpg" alt="image destinations"/></figure>
 											<div className="tg-productcontent">
 												<div className="tg-producttitle">
-													<h3><a href="shopdetail.html">Simple Fabric Bag</a></h3>
+													<h3><Link to="/shopdetail">Trolly Bag</Link></h3>
 												</div>
 												<div className="tg-description">
 													<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh...</p>
@@ -117,10 +118,10 @@ class Shop extends React.Component {
 									</div>
 									<div className="col-xs-6 col-sm-6 col-md-4 col-lg-4">
 										<div className="tg-product">
-											<figure><a href="shopdetail.html"><img src="images/products/img-04.jpg" alt="image destinations"/></a></figure>
+											<figure><Link to="/shopdetail"></Link><img src="images/products/img-04.jpg" alt="image destinations"/></figure>
 											<div className="tg-productcontent">
 												<div className="tg-producttitle">
-													<h3><a href="shopdetail.html">Simple Fabric Bag</a></h3>
+													<h3><Link to="/shopdetail">Coolers</Link></h3>
 												</div>
 												<div className="tg-description">
 													<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh...</p>
@@ -145,10 +146,10 @@ class Shop extends React.Component {
 									</div>
 									<div className="col-xs-6 col-sm-6 col-md-4 col-lg-4">
 										<div className="tg-product">
-											<figure><a href="shopdetail.html"><img src="images/products/img-05.jpg" alt="image destinations"/></a></figure>
+											<figure><Link to="/shopdetail"></Link><img src="images/products/img-05.jpg" alt="image destinations"/></figure>
 											<div className="tg-productcontent">
 												<div className="tg-producttitle">
-													<h3><a href="shopdetail.html">Simple Fabric Bag</a></h3>
+													<h3><Link to="/shopdetail">Casual</Link></h3>
 												</div>
 												<div className="tg-description">
 													<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh...</p>
@@ -173,10 +174,10 @@ class Shop extends React.Component {
 									</div>
 									<div className="col-xs-6 col-sm-6 col-md-4 col-lg-4">
 										<div className="tg-product">
-											<figure><a href="shopdetail.html"><img src="images/products/img-06.jpg" alt="image destinations"/></a></figure>
+											<figure><Link to="/shopdetail"></Link><img src="images/products/img-06.jpg" alt="image destinations"/></figure>
 											<div className="tg-productcontent">
 												<div className="tg-producttitle">
-													<h3><a href="shopdetail.html">Simple Fabric Bag</a></h3>
+													<h3><Link to="/shopdetail">Sea Combo Pack</Link></h3>
 												</div>
 												<div className="tg-description">
 													<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh...</p>
@@ -201,10 +202,10 @@ class Shop extends React.Component {
 									</div>
 									<div className="col-xs-6 col-sm-6 col-md-4 col-lg-4">
 										<div className="tg-product">
-											<figure><a href="shopdetail.html"><img src="images/products/img-07.jpg" alt="image destinations"/></a></figure>
+											<figure><Link to="/shopdetail"></Link><img src="images/products/img-07.jpg" alt="image destinations"/></figure>
 											<div className="tg-productcontent">
 												<div className="tg-producttitle">
-													<h3><a href="shopdetail.html">Simple Fabric Bag</a></h3>
+													<h3><Link to="/shopdetail">iPhone</Link></h3>
 												</div>
 												<div className="tg-description">
 													<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh...</p>
@@ -229,10 +230,10 @@ class Shop extends React.Component {
 									</div>
 									<div className="col-xs-6 col-sm-6 col-md-4 col-lg-4">
 										<div className="tg-product">
-											<figure><a href="shopdetail.html"><img src="images/products/img-08.jpg" alt="image destinations"/></a></figure>
+											<figure><Link to="/shopdetail"></Link><img src="images/products/img-08.jpg" alt="image destinations"/></figure>
 											<div className="tg-productcontent">
 												<div className="tg-producttitle">
-													<h3><a href="shopdetail.html">Simple Fabric Bag</a></h3>
+													<h3><Link to="/shopdetail">Trekking Coat</Link></h3>
 												</div>
 												<div className="tg-description">
 													<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh...</p>
@@ -257,10 +258,10 @@ class Shop extends React.Component {
 									</div>
 									<div className="col-xs-6 col-sm-6 col-md-4 col-lg-4">
 										<div className="tg-product">
-											<figure><a href="shopdetail.html"><img src="images/products/img-09.jpg" alt="image destinations"/></a></figure>
+											<figure><Link to="/shopdetail"></Link><img src="images/products/img-09.jpg" alt="image destinations"/></figure>
 											<div className="tg-productcontent">
 												<div className="tg-producttitle">
-													<h3><a href="shopdetail.html">Simple Fabric Bag</a></h3>
+													<h3><Link to="/shopdetail">Camera</Link></h3>
 												</div>
 												<div className="tg-description">
 													<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh...</p>

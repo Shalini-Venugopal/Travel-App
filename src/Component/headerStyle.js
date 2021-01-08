@@ -199,7 +199,7 @@ class HeaderStyle extends Component {
                                             <li><a href="packages.html">Table</a></li>
                                             <li><Link to="/aboutus">About Us</Link></li>
                                             <li><Link to="/contactus">Contact Us</Link></li>
-                                            <li><a href="billingdetail.html">Billing Detail</a></li>
+                                            <li><Link to="/billdetail">Billing Detail</Link></li>
                                             <li><a href="404error.html">404 Error</a></li>
                                             <li><a href="comingsoon.html">Coming Soon</a></li>
                                             <li><a href="cart.html">cart</a></li>
