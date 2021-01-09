@@ -4,22 +4,23 @@ import { Link } from 'react-router-dom';
 class Login extends React.Component {
 	constructor(props) {
 		super(props);
-        this.handleSubmit = this.handleSubmit.bind(this);
-	}
-	handlesubmit = (event) => {
-
-    // handleSubmit(event) {
-        event.preventDefault();
-		console.log(this);
-		// this.props.history.push('/');    
-    }
+		// create a ref to store the DOM element
+		this.name = React.createRef();
+		this.handleSubmit = this.handleSubmit.bind(this);
+	  }
+	
+	  handleSubmit(e) {
+		e.preventDefault();
+		alert(this.name.current.value);
+	  }
+	
     render() {
         return(
 			<div>
 			<img src="../images/blog/img-15.jpg" className="img-thumbnail" style={{ width: '50%', height: '50%' }} />
             <div className="tg-contentarea tg-themescrollbar">
 			<div className="tg-scrollbar">
-				<button type="button" className="close">x</button>
+				<button type="button" onClick={this.handleClose} className="close">x</button>
 				<div className="tg-logincontent">
 					<nav id="tg-loginnav" className="tg-loginnav">
 						<ul>
@@ -36,15 +37,15 @@ class Login extends React.Component {
 						</ul>
 						<div className="tg-tabcontent tab-content">
 							<div role="tabpanel" className="tab-pane active fade in" id="home">
-								<form onSubmit={this.handleSubmit()} className="tg-formtheme tg-formlogin">
+								<form onSubmit={this.handleSubmit} className="tg-formtheme tg-formlogin">
 									<fieldset>
 										<div className="form-group">
 											<label>Name or Email <sup>*</sup></label>
-											<input type="text" name="firstname" className="form-control" placeholder=""/>
+											<input type="text" name="firstname" className="form-control" ref={this.name} placeholder="" required />
 										</div>
 										<div className="form-group">
 											<label>Password <sup>*</sup></label>
-											<input type="password" name="password" className="form-control" placeholder=""/>
+											<input type="password" name="password" className="form-control"  placeholder="" required/>
 										</div>
 										<div className="form-group">
 											<div className="tg-checkbox">
